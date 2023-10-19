@@ -9,7 +9,7 @@
 
 ## Ссылки на проект
 
-IP-адрес  62.84.112.147
+IP 62.84.112.147
 
 Frontend https://mesto77.nomoredomainsrocks.ru
 
