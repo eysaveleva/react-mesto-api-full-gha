@@ -1,0 +1,10 @@
+.element__image {
+  border-radius: 10px 10px 0 0;
+  margin: 0 auto;
+  width: 282px;
+  height: 282px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

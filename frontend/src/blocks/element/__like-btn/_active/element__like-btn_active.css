@@ -1,0 +1,4 @@
+.element__like-btn_active {
+  background: #fff url('../../../../images/like_active.svg');
+  opacity: 1;
+}

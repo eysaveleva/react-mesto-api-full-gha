@@ -1,0 +1,18 @@
+.sign__form-input {
+  height: 27px;
+  width: 358px;
+  margin: 0;
+  margin-top: 30px;
+  padding: 0 0 3px 0;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
+  vertical-align: top;
+  white-space: nowrap;
+  color: #CCC;
+  border: 1px solid transparent;
+  border-bottom: 2px solid #CCC;
+  overflow: hidden;
+  background-color: black;
+}

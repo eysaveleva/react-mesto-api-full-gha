@@ -1,0 +1,19 @@
+.profile__block {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  max-width: 336px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 700px) {
+  .profile__block {
+    justify-content: flex-end;
+    margin: auto 0;
+    min-width: 100%;
+  }
+}

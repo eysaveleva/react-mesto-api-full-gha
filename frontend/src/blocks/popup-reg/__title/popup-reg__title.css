@@ -1,0 +1,11 @@
+.popup-reg__title {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 358px;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: black;
+  margin-bottom: 23px;
+}
