@@ -23,7 +23,28 @@ const limiter = rateLimit({
   max: 100,
 });
 
-app.use(cors());
+const CORS_OPTIONS = {
+  origin: [
+    'http://mesto77.nomoredomainsrocks.ru',
+    'https://mesto77.nomoredomainsrocks.ru',
+    'http://api.mesto77.nomoredomainsrocks.ru',
+    'https://api.mesto77.nomoredomainsrocks.ru',
+    'http://158.160.109.191',
+    'https://158.160.109.191',
+    'http://localhost:3000',
+    'http://localhost:3001',
+    '*',
+  ],
+  methods: ['GET', 'HEAD', 'PUT', 'PATCH', 'POST', 'DELETE'],
+  preflightContinue: false,
+  optionsSuccessStatus: 204,
+  allowedHeaders: ['Content-Type', 'origin', 'Authorization'],
+  credentials: true,
+};
+app.use('*', cors(CORS_OPTIONS));
+app.options('*', cors());
+
+/*app.use(cors());*/
 app.use(express.json());
 app.use(helmet());
 app.use(requestLogger);
