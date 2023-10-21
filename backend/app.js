@@ -23,7 +23,7 @@ const limiter = rateLimit({
   max: 100,
 });
 
-const CORS_OPTIONS = {
+/*const CORS_OPTIONS = {
   origin: [
     'http://mesto77.nomoredomainsrocks.ru',
     'https://mesto77.nomoredomainsrocks.ru',
@@ -42,9 +42,9 @@ const CORS_OPTIONS = {
   credentials: true,
 };
 app.use('*', cors(CORS_OPTIONS));
-app.options('*', cors());
+app.options('*', cors());*/
 
-/*app.use(cors());*/
+app.use(cors());
 app.use(express.json());
 app.use(helmet());
 app.use(requestLogger);
