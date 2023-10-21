@@ -1,5 +1,5 @@
 {
-  "name": "react-mesto-api-full-gha",
+  "name": "express-mesto-gha",
   "author": "Saveleva Ekaterina",
   "version": "0.1.0",
   "private": true,
@@ -24,24 +24,6 @@
     "start": "node app.js",
     "dev": "nodemon app.js",
     "lint": "npx eslint . --fix"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
   },
   "devDependencies": {
     "eslint": "^8.50.0",
