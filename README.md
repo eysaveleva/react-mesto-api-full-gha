@@ -6,7 +6,7 @@
 Адрес репозитория: https://github.com/eysaveleva/react-mesto-api-full-gha 
 ## Ссылки на проект
 
-IP 84.201.134.106
+IP 158.160.109.191
 
 Frontend https://mesto77.nomoredomainsrocks.ru
 
