@@ -42,8 +42,8 @@ function App() {
       if (token) {
       auth.checkToken(token)
         .then(res => {
-          if (res.data) {
-            setEmail(res.data.email);
+          if (res) {
+            setEmail(res.email);
             handleLoggedIn(true);
             navigate('/');
           }
